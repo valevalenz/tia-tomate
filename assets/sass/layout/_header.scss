@@ -1,0 +1,29 @@
+.header{
+  padding-left:20px;
+  padding-top:10px;
+}
+
+.header__img{
+  width:150px;
+}
+
+.header__section{
+  background-color:$jelly-bean;
+  padding:0;
+}
+
+.header__title{
+  color: $white;
+  text-align:center;
+  font-size: $x-large;
+  font-weight: $extra-light;
+}
+
+.header__title--emphasis{
+  font-weight:$bold;
+  color: $white;
+}
+
+.header__title--emphasis--size-xxl{
+  font-size:$xx-large;
+}
