@@ -9790,12 +9790,13 @@ h2 {
   font-weight: 700;
 }
 
-.contact_tittle--default {
-  padding: 0.7rem 2rem;
-  border-radius: 3px;
+.footer__img {
+  width: 150px;
+}
+
+.contact__button--default {
   font-family: "Raleway", sans-serif;
   color: #E56353;
-  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */
