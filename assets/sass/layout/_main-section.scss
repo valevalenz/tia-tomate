@@ -1,5 +1,5 @@
 
-.main__section--1{
+.main__page--1{
   background-color: $taupe-gray;
   padding-bottom:20px;
   img{
@@ -13,6 +13,8 @@
 .main__section__title--1{
   color: $white;
   text-align: center;
+  margin-top:35px;
+  margin-bottom:35px;
 }
 
 .main__section__text--1{
@@ -20,7 +22,7 @@
   text-align: center;
 }
 
-.main__section--2{
+.main__page--2{
   padding-bottom:20px;
   img{
   width:900px;
@@ -33,6 +35,8 @@
 .main__section__title--2{
   text-align: center;
   color: $taupe-gray;
+  margin-top:50px;
+  margin-bottom:25px;
 }
 
 .main__section__text--2{
@@ -40,16 +44,25 @@
   color: $taupe-gray;
 }
 
-h2{
-  font-size: $large;
+.main__section__text--margin{
+margin-bottom:70px;
+}
+
+.main__img--margin{
+  margin-top:70px;
+}
+
+.main__page--3--title{
+  font-size: $x-large;
   background-color:$jelly-bean;
   color: $white;
   font-weight:$bold;
   text-align:center;
-  padding-top:30px;
-  padding-bottom:30px;
+  padding-top:60px;
+  padding-bottom:60px;
 }
 
-.main__section--3--img{
-    padding-left:280px;
+.main__page--3--img{
+    width:400px;
+    margin-left:470px;
 }

@@ -1,20 +1,19 @@
 .header{
-  padding-left:20px;
-  padding-top:10px;
-}
-
-.header__img{
-  width:150px;
-}
-
-.header__section{
+  height:500px;
   background-color:$jelly-bean;
   padding:0;
+}
+
+.nav__logo{
+  width:150px;
+  margin-bottom:5px;
+  margin-top: 5px;
 }
 
 .header__title{
   color: $white;
   text-align:center;
+  padding-top:120px;
   font-size: $x-large;
   font-weight: $extra-light;
 }

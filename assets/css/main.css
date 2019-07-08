@@ -9694,22 +9694,21 @@ p {
 }
 
 .header {
-  padding-left: 20px;
-  padding-top: 10px;
-}
-
-.header__img {
-  width: 150px;
-}
-
-.header__section {
+  height: 500px;
   background-color: #E56353;
   padding: 0;
+}
+
+.nav__logo {
+  width: 150px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 .header__title {
   color: #FFF;
   text-align: center;
+  padding-top: 120px;
   font-size: 70px;
   font-weight: 200;
 }
@@ -9723,11 +9722,11 @@ p {
   font-size: 100px;
 }
 
-.main__section--1 {
+.main__page--1 {
   background-color: #91918D;
   padding-bottom: 20px;
 }
-.main__section--1 img {
+.main__page--1 img {
   width: 900px;
   align: center;
   padding-top: 20px;
@@ -9737,6 +9736,8 @@ p {
 .main__section__title--1 {
   color: #FFF;
   text-align: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 
 .main__section__text--1 {
@@ -9744,10 +9745,10 @@ p {
   text-align: center;
 }
 
-.main__section--2 {
+.main__page--2 {
   padding-bottom: 20px;
 }
-.main__section--2 img {
+.main__page--2 img {
   width: 900px;
   align: center;
   padding-top: 20px;
@@ -9757,6 +9758,8 @@ p {
 .main__section__title--2 {
   text-align: center;
   color: #91918D;
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
 
 .main__section__text--2 {
@@ -9764,23 +9767,33 @@ p {
   color: #91918D;
 }
 
-h2 {
-  font-size: 50px;
+.main__section__text--margin {
+  margin-bottom: 70px;
+}
+
+.main__img--margin {
+  margin-top: 70px;
+}
+
+.main__page--3--title {
+  font-size: 70px;
   background-color: #E56353;
   color: #FFF;
   font-weight: 700;
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
-.main__section--3--img {
-  padding-left: 280px;
+.main__page--3--img {
+  width: 400px;
+  margin-left: 470px;
 }
 
 .contact {
   background-color: #E56353;
   padding: 0;
+  height: 250px;
 }
 
 .contact__title {
@@ -9788,15 +9801,33 @@ h2 {
   text-align: center;
   font-size: 50px;
   font-weight: 700;
+  padding-top: 40px;
 }
 
 .footer__img {
   width: 150px;
+  margin-left: 600px;
+  margin-top: 70px;
+}
+
+footer {
+  background-color: #686963;
+  height: 250px;
 }
 
 .contact__button--default {
   font-family: "Raleway", sans-serif;
-  color: #E56353;
+  color: #686963;
+  font-weight: 700;
+  border-radius: 36px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 250px;
+  margin-left: 550px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=main.css.map */
